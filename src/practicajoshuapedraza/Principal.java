@@ -20,7 +20,8 @@ public class Principal {
                 }
 
 		
-		new CalculosMatematicos().calculos(numero);
+		CalculosMatematicos misCalculosMatematicos = new CalculosMatematicos();
+                misCalculosMatematicos.calculosRefactorizados(numero);
 
 	}
 
