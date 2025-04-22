@@ -13,7 +13,8 @@ public class Principal {
 		
 		int numero = sc.nextInt();
 		
-		new CalculosMatematicos().calculos(numero);
+		CalculosMatematicos misCalculosMatematicos = new CalculosMatematicos();
+                misCalculosMatematicos.calculosRefactorizados(numero);
 
 	}
 
